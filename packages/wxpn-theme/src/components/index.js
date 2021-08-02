@@ -26,7 +26,7 @@ const Root = ({ state, actions }) => {
             />
             <Header isPostType={data.isPostType} isPage={data.isPage}>
                 <HeaderContent>
-                    <h1>WXPN Frontend Mockup</h1>
+                    <h1>WXPN Frontend Mockup (Frontity)</h1>
                     {state.theme.isUrlVisible
                         ? <>Current URL: {state.router.link} <Button onClick={actions.theme.toggleUrl}>&#x3c; Hide URL</Button></>
                         : <Button onClick={actions.theme.toggleUrl}>Show URL &#x3e;</Button>
